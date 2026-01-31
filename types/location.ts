@@ -5,6 +5,7 @@ export interface LocationItem {
   city: string;
   phone: string;
   mapsUrl: string;
+  embedUrl?: string; // New field for iframe SRC
   operatingHours: string;
   status: 'open' | 'closed' | 'coming-soon';
   image?: string;
